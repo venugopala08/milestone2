@@ -1,0 +1,53 @@
+/* Ensure the container takes up the full height of the viewport */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  text-align: center; /* Center text */
+}
+
+/* Styling for the title */
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Styling for the button */
+.toggle-button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Styling for the chart container */
+.chart-container {
+  width: 80%; /* Adjust as needed */
+  max-width: 600px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+/* Styling for the profile container */
+.profile-container {
+  width: 80%; /* Adjust as needed */
+  max-width: 600px; /* Adjust as needed */
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.profile-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.profile-info {
+  font-size: 1rem;
+}

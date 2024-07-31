@@ -1,0 +1,54 @@
+.leave-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .chart-container {
+    width: 30%;
+    height: 250px;
+    margin: 20px 0;
+  }
+  
+  button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #17a2b8;
+    color: rgb(176, 15, 15);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #138496;
+  }
+  
+  .leave-details {
+    width: 60%;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .leave-details h3 {
+    margin-bottom: 10px;
+  }
+  
+  .leave-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .leave-details li {
+    margin: 5px 0;
+    color: #131312;
+  }
